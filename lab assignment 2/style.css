@@ -39,5 +39,44 @@ body{
     background-color: whitesmoke;
     margin: 10px;
     padding: 10px;
-    
+}
+
+#history-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.history-btn {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.history-btn:hover {
+    background-color: #45a049;
+}
+
+#logs-display {
+    border: 2px solid black;
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+    background-color: #f0f0f0;
+    margin: 10px;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 12px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+#logs-display p {
+    margin: 5px 0;
+    color: #333;
 }
